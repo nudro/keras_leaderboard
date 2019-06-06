@@ -4,7 +4,7 @@ Leaderboard API in Keras to track metadata
 
 Data: I used a Kaggle art dataset to prototype this. https://www.kaggle.com/thedownhill/art-images-drawings-painting-sculpture-engraving
 
-![](data.png)
+<img src =data.png width=200 height=430>
 
 Please note, you need to install the Quantopian widget at: https://github.com/quantopian/qgrid<br>
 
