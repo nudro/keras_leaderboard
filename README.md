@@ -7,7 +7,7 @@ Contributors:
 - Josh Luxton
 - Chao Wu
 
-<img src=strata_diagrams.png width=600 height=550>
+<img src=strata_diagrams.png width=530 height=550>
 
 <b>Download Data</b> Kaggle art dataset: https://www.kaggle.com/thedownhill/art-images-drawings-painting-sculpture-engraving
 
@@ -24,10 +24,10 @@ Contributors:
 <b>Install requirements into `leaderboard_env`:</b>
 
     $ pip install -r requirements.txt
-
+    
 <b>Upload data into `data` directory as a sub-directory of `keras_leaderboard`</b>
 
-<b>run main.py</b>
+<b>Run main.py</b>
 
     $ python main.py
 
