@@ -8,26 +8,11 @@ Please note, you need to install the Quantopian widget at: https://github.com/qu
 
 #Here are some steps to reproduce your environment: 
 
-<b>Log into IC or DGX-1 cluster GPU</b>
+<b>Set up your Virtual Environment on your GPU</b>
 
     $ conda create -n leaderboard_env python=3.6
     $ source activate leaderboard_env
     $ mkdir leaderboard_dir
-
-<b>From your local drive after cloning this repo, upload to IC:</b>
-
-    $ scp -r keras_leaderboard  cordun@10.136.18.10:/leaderboard_dir  
-
-<b>We need to update with a `.gitignore` but the hard way is this: </b>
-
-Next, delete all the ‘.DS_Store’ files in case that still occurred during upload
-
-    $ cd dataset_updated
-    $ find . -name '.DS_Store' -type f -delete
-    $ cd dataset_updated/training_set
-    $ find . -name '.DS_Store' -type f -delete
-    $ cd dataset_updated/validation_set
-    $ find . -name '.DS_Store' -type f -delete
 
 <b>Now, install requirements into `leaderboard_env`:</b>
 
@@ -43,7 +28,7 @@ Model outputs will be aggregated into the directory, *test*:
 - Within *test*, there will be a series of directories with the format "model_name_month_day_hour_minute" of when the model was created
     - Within these directories there will be folders containing csv's, plots and other files
         
-Additionally, a CSV with metadata outputted for six models. 
+Additionally, a CSV with metadata outputted for each model. 
 
 You can also run the `Example.ipynb` that will use the Quantopian Widget.
 
