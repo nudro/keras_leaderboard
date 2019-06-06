@@ -1,10 +1,17 @@
 # keras_leaderboard
-Leaderboard API in Keras to track metadata
-<img src=metadata.png width=600 height=550>
+Prototype API to track models and output metadata using the Keras API
+
+Contributors:
+- Catherine Ordun
+- Michael Fagundo
+- Josh Luxton
+- Chao Wu
+
+<img src=strata_diagrams.png width=600 height=550>
 
 <b>Download Data</b> Kaggle art dataset: https://www.kaggle.com/thedownhill/art-images-drawings-painting-sculpture-engraving
 
-<img src =data.png width=180 height=280>
+<img src =data.png width=230 height=280>
 
 <b>Install Quantopian Widget</b>: https://github.com/quantopian/qgrid<br>
 
