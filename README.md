@@ -4,6 +4,8 @@ Leaderboard API in Keras to track metadata
 
 Data: I used a Kaggle art dataset to prototype this. https://www.kaggle.com/thedownhill/art-images-drawings-painting-sculpture-engraving
 
+![](data.gif)
+
 Please note, you need to install the Quantopian widget at: https://github.com/quantopian/qgrid<br>
 
 #Here are some steps to reproduce your environment: 
@@ -17,6 +19,8 @@ Please note, you need to install the Quantopian widget at: https://github.com/qu
 <b>Now, install requirements into `leaderboard_env`:</b>
 
     $ pip install -r requirements.txt
+
+<b>Place your `data` directory as a sub-directory of `keras_leaderboard`</b>
 
 <b>run main.py</b>
 
