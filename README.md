@@ -159,9 +159,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👥 Contributors
 
 - Catherine Ordun
-- Michael Fagundo
-- Josh Luxton
-- Chao Wu
 
 ## 📚 Citation
 
@@ -169,9 +166,9 @@ If you use this project in your research, please cite:
 
 ```
 @software{keras_leaderboard,
-  author = {Ordun, Catherine and Fagundo, Michael and Luxton, Josh and Wu, Chao},
+  author = {Ordun, Catherine},
   title = {Keras Leaderboard: A Framework for Tracking Neural Network Metadata},
   url = {https://github.com/nudro/keras_leaderboard},
-  year = {2022},
+  year = {2023},
 }
 ``` 
